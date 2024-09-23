@@ -37,6 +37,8 @@ body {
 .book-details {
     font-size: 1.2rem;
     margin: 10px 0;
+	color:rgba(255,255,255);
+	background-color:rgba(46,204,103);
 }
 
 
