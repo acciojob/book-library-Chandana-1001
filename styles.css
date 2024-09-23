@@ -1,33 +1,54 @@
 /*  your css code here. If applicable */
-body{
-	background-color:#f8f8f8;
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
 }
-.book
-{
-	color:rgb(46, 204, 113);
-      
-}
-.book-library
-{
+
+
+.book-library {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    justify-content:center;
 	text-align:center;
-	background-color:#ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
-.book img{
+
+/* Individual book block */
+.book {
+    background-color: #fff;
+    width: 200px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 	justify-content:center;
-	width:150px;
-	height:250px;
-	background-color:rgb(46, 204, 113);
-	color:rgb(46, 204, 113);
 }
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
-.book-details
-{
-	text-align:left;
-	justify-content:left;
-	color:#777777;
+
+
+.book-details {
+    font-size: 1.2rem;
+    margin: 10px 0;
 }
-.book-price
-{
-	background-color:green;
-	color:#2ecc71
+
+/* Author text color */
+.book-author {
+    color: #777777;
+    margin-bottom: 10px;
+}
+
+/* Price block color */
+.book-price {
+    color: #2ecc71;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
