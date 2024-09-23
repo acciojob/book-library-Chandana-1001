@@ -16,7 +16,6 @@ body {
     border-radius: 8px;
 }
 
-/* Individual book block */
 .book {
     background-color: #fff;
     width: 200px;
@@ -40,15 +39,14 @@ body {
     margin: 10px 0;
 }
 
-/* Author text color */
+
 .book-author {
     color: #777777;
     margin-bottom: 10px;
 }
 
-/* Price block color */
 .book-price {
-    color: #2ecc71;
+    color:rgb(46, 204, 113);
     font-weight: bold;
     font-size: 1.1rem;
 }
