@@ -5,7 +5,7 @@ body{
 .book
 {
 	color:rgb(46, 204, 113);
-      background-color:rgb(46, 204, 113);
+      
 }
 .book-library
 {
@@ -16,15 +16,14 @@ body{
 	justify-content:center;
 	width:150px;
 	height:250px;
+	background-color:rgb(46, 204, 113);
+	color:rgb(46, 204, 113);
 }
-.book-name
+}
+.book-details
 {
 	text-align:left;
 	justify-content:left;
-}
-.book-author
-{
-	text-align:left;
 	color:#777777;
 }
 .book-price
